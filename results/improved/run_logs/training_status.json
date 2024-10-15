@@ -1,0 +1,65 @@
+{
+    "CrossTheRoad": {
+        "checkpoints": [
+            {
+                "steps": 1999966,
+                "file_path": "results\\cross_road2\\CrossTheRoad\\CrossTheRoad-1999966.onnx",
+                "reward": 0.9567771084180259,
+                "creation_time": 1720338333.7228575,
+                "auxillary_file_paths": [
+                    "results\\cross_road2\\CrossTheRoad\\CrossTheRoad-1999966.pt"
+                ]
+            },
+            {
+                "steps": 2195440,
+                "file_path": "results\\cross_road2\\CrossTheRoad\\CrossTheRoad-2195440.onnx",
+                "reward": 1.0,
+                "creation_time": 1720338761.2672966,
+                "auxillary_file_paths": [
+                    "results\\cross_road2\\CrossTheRoad\\CrossTheRoad-2195440.pt"
+                ]
+            },
+            {
+                "steps": 2499977,
+                "file_path": "results\\cross_road2\\CrossTheRoad\\CrossTheRoad-2499977.onnx",
+                "reward": 0.8615660919037101,
+                "creation_time": 1723547162.6732726,
+                "auxillary_file_paths": [
+                    "results\\cross_road2\\CrossTheRoad\\CrossTheRoad-2499977.pt"
+                ]
+            },
+            {
+                "steps": 2999938,
+                "file_path": "results\\cross_road2\\CrossTheRoad\\CrossTheRoad-2999938.onnx",
+                "reward": 0.8848314606323001,
+                "creation_time": 1723548514.4738011,
+                "auxillary_file_paths": [
+                    "results\\cross_road2\\CrossTheRoad\\CrossTheRoad-2999938.pt"
+                ]
+            },
+            {
+                "steps": 3125921,
+                "file_path": "results\\cross_road2\\CrossTheRoad\\CrossTheRoad-3125921.onnx",
+                "reward": 0.8753378377925303,
+                "creation_time": 1723548814.9347448,
+                "auxillary_file_paths": [
+                    "results\\cross_road2\\CrossTheRoad\\CrossTheRoad-3125921.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3125921,
+            "file_path": "results\\cross_road2\\CrossTheRoad.onnx",
+            "reward": 0.8753378377925303,
+            "creation_time": 1723548814.9347448,
+            "auxillary_file_paths": [
+                "results\\cross_road2\\CrossTheRoad\\CrossTheRoad-3125921.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.8.1+cu111"
+    }
+}

@@ -1,0 +1,25 @@
+behaviors:
+  CrossTheRoad:
+    trainer_type: ppo
+    hyperparameters:
+      batch_size: 2048  # Larger batch size for more stable updates
+      buffer_size: 20480  # Larger buffer size to collect more experience before updating
+      learning_rate: 1.0e-4  # Reduced learning rate for more stable updates
+      beta: 5.0e-3  # Slightly higher beta for better entropy
+      epsilon: 0.2  # Clipping parameter
+      lambd: 0.95  # GAE parameter
+      num_epoch: 3  # Number of passes through buffer during gradient descent
+      learning_rate_schedule: linear  # Linearly decays the learning rate
+    network_settings:
+      normalize: true  # Normalizing inputs can help with training stability
+      hidden_units: 256  # Increased hidden units for a more complex policy network
+      num_layers: 2  # Number of layers in the network
+    reward_signals:
+      extrinsic:
+        gamma: 0.99  # Discount factor
+        strength: 1.0  # Reward signal strength
+    max_steps: 20000000  # Increased max steps for longer training duration
+    time_horizon: 64  # How many steps to collect before adding to the buffer
+    summary_freq: 10000  # Frequency of summary updates
+    keep_checkpoints: 5  # Number of checkpoints to keep
+    checkpoint_interval: 500000  # Interval for saving checkpoints

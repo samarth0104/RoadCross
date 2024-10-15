@@ -1,0 +1,47 @@
+{
+    "CrossTheRoad": {
+        "checkpoints": [
+            {
+                "steps": 330908,
+                "file_path": "results/Straight\\CrossTheRoad\\CrossTheRoad-330908.onnx",
+                "reward": 0.20277777748803297,
+                "creation_time": 1723369513.8733897,
+                "auxillary_file_paths": [
+                    "results/Straight\\CrossTheRoad\\CrossTheRoad-330908.pt"
+                ]
+            },
+            {
+                "steps": 499974,
+                "file_path": "results/Straight\\CrossTheRoad\\CrossTheRoad-499974.onnx",
+                "reward": 0.4272058821447632,
+                "creation_time": 1723370000.2493942,
+                "auxillary_file_paths": [
+                    "results/Straight\\CrossTheRoad\\CrossTheRoad-499974.pt"
+                ]
+            },
+            {
+                "steps": 651935,
+                "file_path": "results/Straight\\CrossTheRoad\\CrossTheRoad-651935.onnx",
+                "reward": 0.46203416129516334,
+                "creation_time": 1723370437.2697313,
+                "auxillary_file_paths": [
+                    "results/Straight\\CrossTheRoad\\CrossTheRoad-651935.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 651935,
+            "file_path": "results/Straight\\CrossTheRoad.onnx",
+            "reward": 0.46203416129516334,
+            "creation_time": 1723370437.2697313,
+            "auxillary_file_paths": [
+                "results/Straight\\CrossTheRoad\\CrossTheRoad-651935.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.8.1+cu111"
+    }
+}
