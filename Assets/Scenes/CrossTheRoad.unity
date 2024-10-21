@@ -6632,11 +6632,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1830136763594201200, guid: 94285112da9a431428cbee7e7a273645, type: 3}
       propertyPath: maxSpeed
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1830136763594201200, guid: 94285112da9a431428cbee7e7a273645, type: 3}
       propertyPath: minSpeed
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2867900520080090487, guid: 94285112da9a431428cbee7e7a273645, type: 3}
       propertyPath: maxSpeed
@@ -6656,7 +6656,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5480263861304188309, guid: 94285112da9a431428cbee7e7a273645, type: 3}
       propertyPath: speed
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5815274226956044366, guid: 94285112da9a431428cbee7e7a273645, type: 3}
       propertyPath: m_Name
@@ -6668,19 +6668,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7812447830051913686, guid: 94285112da9a431428cbee7e7a273645, type: 3}
       propertyPath: maxSpeed
-      value: 11
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7812447830051913686, guid: 94285112da9a431428cbee7e7a273645, type: 3}
       propertyPath: minSpeed
-      value: 11
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 9170510602521451347, guid: 94285112da9a431428cbee7e7a273645, type: 3}
       propertyPath: maxSpeed
-      value: 2
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 9170510602521451347, guid: 94285112da9a431428cbee7e7a273645, type: 3}
       propertyPath: minSpeed
-      value: 2
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
